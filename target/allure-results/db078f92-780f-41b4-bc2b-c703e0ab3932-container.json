@@ -1,0 +1,1 @@
+{"uuid":"db078f92-780f-41b4-bc2b-c703e0ab3932","name":"testcases.WishlistPageTest","children":["8c321ce1-26eb-4f74-a569-9677dd9b98ee"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1591177957753,"stop":1591177958420}],"links":[],"start":1591177881339,"stop":1591177958461}

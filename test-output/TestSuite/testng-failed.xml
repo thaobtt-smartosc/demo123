@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testcases.ComparePageTest">
+        <methods>
+          <include name="verifyProductInComparePage"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="Data"/>
+          <include name="cleanOrKeepTrack"/>
+        </methods>
+      </class> <!-- testcases.ComparePageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testcases.WishlistPageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="data"/>
+          <include name="verifyProductInWishList"/>
+          <include name="cleanOrKeepTrack"/>
+        </methods>
+      </class> <!-- testcases.WishlistPageTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

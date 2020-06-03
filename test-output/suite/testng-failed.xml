@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="test_cart(failed)">
+    <classes>
+      <class name="testcases.CartPageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="Data"/>
+          <include name="tearDown"/>
+          <include name="verifyProductInCart"/>
+          <include name="cleanOrKeepTrack"/>
+        </methods>
+      </class> <!-- testcases.CartPageTest -->
+    </classes>
+  </test> <!-- test_cart(failed) -->
+</suite> <!-- Failed suite [suite] -->

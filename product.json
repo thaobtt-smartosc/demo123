@@ -1,0 +1,18 @@
+{
+	"product1":{
+		"url":"https://demo.smartosc.com/breathe-easy-tank.html",
+		"name":"Breathe-Easy Tank",
+		"price":"34,00 US$",
+		"color":"Purple",
+		"size":"XS"
+		}	,
+		
+		"product2":{
+		"url":"https://demo.smartosc.com/radiant-tee.html",
+		"name":"Radiant Tee",
+		"price":"22,00 US$",
+		"color":"Blue",
+		"size":"XS"
+		}
+			
+}
